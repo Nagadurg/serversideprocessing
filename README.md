@@ -77,7 +77,7 @@ Link the html document to urls.py
     </div>
 </body>
 </html>
-```
+
 ### views.py
 
 from django.shortcuts import render
@@ -95,7 +95,7 @@ def areacalculation(request):
         context["l"] = l
         context["w"] = w
     return render(request,"mathapp/area.html",context)
-   ``` 
+   
  ### urls.py
  
  from django.contrib import admin
